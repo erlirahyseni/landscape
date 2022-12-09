@@ -1,0 +1,258 @@
+.intro-page {
+  width: 100%;
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.intro-content {
+  background: linear-gradient(to top, rgb(0 0 0 / 0.5), rgba(0 0 0 / 0.1)),
+    url("../../assets/bg.jpg");
+  background-size: cover;
+  background-position: top;
+  display: flex;
+  width: 100%;
+  height: 140vh;
+}
+.social-icons {
+  width: 10%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.11);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(20px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons li {
+  list-style: none;
+  color: rgba(255, 255, 255, 0.409);
+  margin: 3rem 0;
+}
+
+.text-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.title {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.numbers {
+  width: 10%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.numbers #one {
+  font-size: 10rem;
+  font-weight: 100;
+  color: rgba(255, 255, 255, 0.473);
+}
+
+.numbers h2 {
+  font-size: 2rem;
+  font-weight: 200;
+  color: white;
+}
+
+.title h1 {
+  font-size: 5rem;
+  color: white;
+}
+.first-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.line {
+  width: 0.1px;
+  height: 5rem;
+  background-color: white;
+}
+
+.first-section h1 {
+  transform: rotate(90deg);
+  font-size: 1rem;
+  font-weight: 200;
+}
+
+.cards-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.cards-section h1 {
+  color: white;
+  font-weight: 100;
+  font-size: 1rem;
+  letter-spacing: 10px;
+  margin-left: 5rem;
+}
+
+.cards-section .line {
+  height: 0.1rem;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.247);
+}
+.cards {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5rem;
+}
+
+.card-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 2rem;
+  padding: 0 3rem;
+}
+
+.card-desc h1 {
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 0;
+  margin: 1rem 0;
+}
+
+.card-desc p {
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  line-height: 1.5rem;
+}
+
+.card-desc button {
+  border: 1px solid white;
+  background: none;
+  color: white;
+  border-radius: 10px;
+  padding: 10px 24px;
+  font-size: 0.8rem;
+}
+
+#added button {
+  border: 1px solid white;
+  background: white;
+  color: #242424;
+  border-radius: 10px;
+  padding: 10px 24px;
+  font-size: 0.8rem;
+}
+
+.card-desc button:hover {
+  border: 1px solid white;
+  background: white;
+  color: #242424;
+  border-radius: 10px;
+  padding: 10px 24px;
+  font-size: 0.8rem;
+}
+.title-content {
+  width: 100%;
+  height: 20rem;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title-content h1 {
+  color: #242424;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.title-text {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.title-text h1 {
+  color: #242424;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.title-text p {
+  font-size: 0.8rem;
+  font-weight: 200;
+  padding-left: 5rem;
+}
+.last_section{
+  width: 100%;
+  height: 25rem;
+  background: linear-gradient(  rgb(0 0 0 / 0.3), rgba(0 0 0 / 0.1)),
+  url("../../assets/bg.jpg");
+background-size: cover;
+background-position: bottom;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.last_section h1{
+  color: white;
+  text-align: center;
+  font-weight: 200;
+  margin-bottom: 3rem;
+}
+
+.date-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+#date{
+  background: rgba(255, 255, 255, 0.089);
+border-radius: 5px;
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+width: 8rem;
+height: 10rem;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+font-size: 2rem;
+font-weight: 200;
+margin: 0 0.5rem;
+}
+
+
+#date:hover{
+  background-color: #897ae7;
+}
+
+.link-active {
+  color: black;
+  background: orange;
+}
+
+.active{
+  color:#fcfcfc;
+ }

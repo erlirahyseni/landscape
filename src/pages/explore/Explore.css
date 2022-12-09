@@ -1,0 +1,167 @@
+.adventure-section {
+  width: 100%;
+  height: 200vh;
+  background: linear-gradient(to top, rgb(0 0 0 / 0.2), rgba(0 0 0 / 0.1)),
+    url("../../assets/bg2.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-section {
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.content-section #title {
+  font-size: 5rem;
+  padding: 0 5rem;
+  color: white;
+  margin-top: 2rem;
+}
+.number-section {
+  display: flex;
+  padding: 0 5rem;
+}
+
+.number-section h1 {
+  color: white;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.number-section h2 {
+  color: white;
+  font-size: 1rem;
+  margin-left: 0.5rem;
+  font-weight: 100;
+}
+
+.last-section {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.last-section h1 {
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.last-section p {
+  color: rgb(180, 179, 179);
+  font-size: 1rem;
+}
+
+.last-section .text {
+  width: 100%;
+  display: flex;
+  flex: 1;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: start;
+  flex-direction: column;
+  margin-left: 5rem;
+}
+
+.card {
+  width: 100%;
+  display: flex;
+  flex: 1.5;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.card-desctription {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 1rem;
+}
+
+.card-desctription #num {
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+.card-desctription h1 {
+  font-size: 1rem;
+  padding: 0.5rem 0;
+}
+
+.reservation-section {
+  width: 100%;
+  flex: 0.5;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.reservation-section h1 {
+  font-size: 3rem;
+}
+
+.reservation-section p {
+  color: rgb(180, 179, 179);
+  font-size: 1rem;
+}
+
+.reservation {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 2rem;
+}
+
+.reservation input {
+  background-color: #f9f6f6;
+  color: #5f5f5e;
+  padding: 14px 24px;
+  border: none;
+  margin: 0 0.5rem;
+  border-radius: 10px;
+}
+
+.book-button button {
+  background-color: #030303;
+  color: white;
+  padding: 14px 24px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+.book-button button:hover {
+  background-color: #1e73f3;
+  color: white;
+  padding: 14px 24px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+.reservation input:focus {
+  resize: none;
+  outline: none;
+}
+
+.checks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.checks h1{
+    font-size:0.8rem;
+    font-weight: 500;
+}
